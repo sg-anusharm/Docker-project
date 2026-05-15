@@ -8,7 +8,7 @@ public class DemoController {
 
 	@GetMapping(value = "")
 	public String helloWorld() {
-		String s = "hello leo, alsi kutte!!>>>> NEW UPDATE APPENDED!!!>>>Day2";
+		String s = "Dummy Commit to check the triggering of pipeline";
 		return s;
 	}
 }
